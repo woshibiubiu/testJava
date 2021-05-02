@@ -8,6 +8,7 @@ public class Offer12 {
     public boolean exist(char[][] board, String word) {
         char[] chars = word.toCharArray();
         for(int i=0;i<board.length;i++){
+            System.out.println(" ");
             for(int j=0;j<board[0].length;j++){
                 if(dfs(board,chars,i,j,0)) return true;
             }
