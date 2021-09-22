@@ -15,6 +15,8 @@ public class Main2 {
         int a=sc.nextInt();
         int len =s.length()-a;
         int length =len;
+        int a=0;
+        int b=0;
         int len2=len;
         int len3=len;
         int min=Integer.MAX_VALUE;
