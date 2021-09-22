@@ -12,12 +12,7 @@ public class Main2 {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
         char[] chars = s.toCharArray();
-        int a=sc.nextInt();
-        int len =s.length()-a;
-        int length =len;
-        int b=0;
-        int len2=len;
-        int len3=len;
+      //aaaa
         int min=Integer.MAX_VALUE;
         int temp=0;
         int[] mine=new int[len];
